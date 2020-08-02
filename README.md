@@ -1,2 +1,53 @@
 # TerrainViewer
-国土地理院のデータから地形図を生成し、画像を保存できるデスクトップアプリ
+国土地理院のデータから地形図を生成し、画像を保存できるデスクトップアプリです。
+
+本当はexe化しようと思ったのですが、exe化すると開けなくなったのでやめました。ごめんなさい。
+
+# セットアップ
+![downloadzip](https://github.com/pto8913/TerrainViewer/blob/images/Zip1.png)
+1. ダウンロードしたzipファイルを展開します。(cloneした場合は必要ありません)<br>
+2. [国土地理院 数値標高モデル](https://fgd.gsi.go.jp/download/menu.php)からデータをダウンロードしてきます。<br>
+3. データが入ったzipを展開します。<br>
+4．展開したデータをそのまま、`TerrainViewer-master`フォルダの下に移動します。<br>
+![setup2](https://github.com/pto8913/TerrainViewer/blob/images/Zip4.png)<br>
+これで、準備が完了しました。<br>
+
+# 使い方
+1. コマンドラインを開く。<br>
+これは自分の環境で確認したことですが、.pyファイルをダブルクリックすれば実行できるっぽいです。できた場合は6まで読み飛ばしてください。<br>
+<details>
+  <summary>コマンドラインの開き方、win10の場合</summary>
+  
+  ## 一つ目
+  ![open cmd1](https://github.com/pto8913/TerrainViewer/blob/images/cmd1-1.png)<br>
+  1. `winキー`を押しながら`Rキー`を押します。<br>
+  2. 画面上に現れたウィンドウに、`cmd`と入力します。<br>
+  3. `ok`を押してください。<br>
+  
+  ## 二つ目
+  ![open cmd2](https://github.com/pto8913/TerrainViewer/blob/images/cmd2-1.png)<br>
+  1. スタートを開きます。<br>
+  2. スタートを開いた状態で、`cmd`と入力します。<br>
+  3. コマンドプロンプトを開いてください。<br>
+  ![open cmd2-2](https://github.com/pto8913/TerrainViewer/blob/images/cmd2-2.png)<br>
+
+</details>
+
+2. コマンドラインに`cd ディレクトリへのパス`を入力して、`TerrainViewer-master`フォルダ下に移動します。<br>
+3. コマンドラインに`TerrainViewer.py`をドラッグアンドドロップしてください。<br>
+![Howtouse3](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse3.png)<br>
+4. エンターキーを押して下さい。<br>
+5. `TerrainViewer`というウィンドウが開かれます。<br>
+![Howtouse5](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse5.png)<br>
+6. 地形図を生成したいアイテムがある、フォルダの名前をダブルクリックします。<br>
+![Howtouse6](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse6.png)<br>
+7. 地形図を生成したいアイテムをクリックして選択します。<br>
+![Howtouse7](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse7.png)<br>
+8. `Create Terrain`をクリックします。<br>
+9. コーヒーを飲んで一休みします。<br>
+10. 飲み終わらないうちに、処理が終わり、`Result Images`というタブが追加されます。<br>
+そこに処理の結果が保存されています。<br>
+![Howtouse10](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse10.png)<br>
+11. それらをダブルクリックすると、地形図が表示されます。<br>
+![Howtouse10](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse11.png)<br>
+12. 面白い地形図を探しましょう!<br>
