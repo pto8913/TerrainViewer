@@ -1,6 +1,8 @@
 # TerrainViewer
 国土地理院のデータから地形図を生成し、画像を保存できるデスクトップアプリです。
 
+![intro](https://github.com/pto8913/TerrainViewer/blob/images/Intro.png)<br>
+
 本当はexe化しようと思ったのですが、exe化すると開けなくなったのでやめました。ごめんなさい。
 
 # セットアップ
@@ -9,6 +11,7 @@
 2. [国土地理院 数値標高モデル](https://fgd.gsi.go.jp/download/menu.php)からデータをダウンロードしてきます。<br>
 3. データが入ったzipを展開します。<br>
 4．展開したデータをそのまま、`TerrainViewer-master`フォルダの下に移動します。<br>
+※なお、アプリを開いた後からでも追加できるので、4は必須ではありません。<br>
 ![setup2](https://github.com/pto8913/TerrainViewer/blob/images/Zip4.png)<br>
 これで、準備が完了しました。<br>
 
@@ -39,6 +42,16 @@
 4. エンターキーを押して下さい。<br>
 5. `TerrainViewer`というウィンドウが開かれます。<br>
 ![Howtouse5](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse5.png)<br>
+<details>
+  <summary>ウィンドウを開いた状態で、データを追加したい場合。</summary>
+  
+  5.5　国土地理院からダウンロードしてきたデータを、ウィンドウを開いた状態で行いたい場合、<br>
+       ダウンロードしてきたzip形式のフォルダを展開します。 <br>
+       展開されたフォルダをそのままウィンドウに、ドラッグアンドドロップしてください。<br>  
+       ![Houtouse5.5](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse5.5.png)<br>
+</details>
+
+
 6. 地形図を生成したいアイテムがある、フォルダの名前をダブルクリックします。<br>
 ![Howtouse6](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse6.png)<br>
 7. 地形図を生成したいアイテムをクリックして選択します。<br>
