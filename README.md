@@ -60,7 +60,7 @@
 11. それらをダブルクリックすると、地形図が表示されます。<br>
 ![Howtouse10](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse11.png)<br>
 12. 面白い地形図を探しましょう!<br>
-<br>
+
 [目次に戻る](#目次)<br>
 
 # データをウィンドウを開いてから追加する
