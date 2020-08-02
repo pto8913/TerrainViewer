@@ -1,14 +1,16 @@
 # 目次
+・[紹介](#terrainviewer)<br>
 ・[セットアップ](#セットアップ)<br>
 ・[使い方](#使い方)<br>
 ・[データをウィンドウを開いてから追加する](#データをウィンドウを開いてから追加する)<br>
+・[動かない](#動かない)<br>
 
 # TerrainViewer
 国土地理院のデータから地形図を生成し、画像を保存できるデスクトップアプリです。
 
 ![intro](https://github.com/pto8913/TerrainViewer/blob/images/Intro.png)<br>
 
-本当はexe化しようと思ったのですが、exe化すると開けなくなったのでやめました。ごめんなさい。
+本当はexe化しようと思ったのですが、exe化すると開けなくなったのでやめました。ごめんなさい。<br>
 
 # セットアップ
 ![downloadzip](https://github.com/pto8913/TerrainViewer/blob/images/Zip1.png)
@@ -70,3 +72,14 @@
 ![Houtouse5.5](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse5.5.png)<br>
 
 [目次に戻る](#目次)<br>
+
+# 動かない
+## pythonのダウンロード
+そもそも、python3をインストールしていない場合、[公式サイト](https://www.python.org/downloads/)からダウンロードして、インストールを済ませてください。<br>
+[Pythonのダウンロードとインストール | Python入門](https://www.javadrive.jp/python/install/index1.html)
+
+## pythonのパスを通す
+[環境変数PATHを設定する | Python入門 - Let'sプログラミング](https://www.javadrive.jp/python/install/index3.html)
+
+## モジュールがない
+[Pythonのパッケージ管理システムpipの使い方 | note.nkmk.me](https://note.nkmk.me/python-pip-usage/)
