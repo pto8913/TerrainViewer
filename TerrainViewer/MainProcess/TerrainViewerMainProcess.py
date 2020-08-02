@@ -157,7 +157,7 @@ class TerrainViewerMainProcess(TerrainViewerMainProcessUI):
         for url in urls:
             ItemPath = Path(url.toLocalFile())
             if not str(ItemPath.suffix):
-                __Match = re.search(self.FolderPtn, ItemPath)
+                __Match = re.search(self.FolderPtn, str(ItemPath))
                 if __Match:
                     self.ItemDirList.append(str(ItemPath))
                     self.ItemList.addItem(str(ItemPath.name))
