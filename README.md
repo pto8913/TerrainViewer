@@ -59,7 +59,6 @@
 
 
 6. 地形図を生成したいアイテムがある、フォルダの名前をダブルクリックします。<br>
-![Howtouse6](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse6.png)<br>
 7. 地形図を生成したいアイテムをクリックして選択します。<br>
 ![Howtouse7](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse7.png)<br>
 8. `Create Terrain`をクリックします。<br>
