@@ -1,5 +1,6 @@
 # 目次
 ・[紹介](#terrainviewer)<br>
+・[使用モジュール](#使用モジュール)<br>
 ・[セットアップ](#セットアップ)<br>
 ・[使い方](#使い方)<br>
 ・[データをウィンドウを開いてから追加する](#データをウィンドウを開いてから追加する)<br>
@@ -11,6 +12,12 @@
 ![intro](https://github.com/pto8913/TerrainViewer/blob/images/Intro.png)<br>
 
 本当はexe化しようと思ったのですが、exe化すると開けなくなったのでやめました。ごめんなさい。<br>
+
+# 使用モジュール
+・PyQt5.13.0 <br>
+[riverbankcomputing](https://riverbankcomputing.com/software/pyqt/download5)
+・matplotlib3.3.0<br>
+[matplotlib.org](https://matplotlib.org/)
 
 # セットアップ
 ![downloadzip](https://github.com/pto8913/TerrainViewer/blob/images/Zip1.png)
