@@ -1,6 +1,7 @@
 # 目次
 ・[セットアップ](#セットアップ)<br>
 ・[使い方](#使い方)<br>
+・[データをウィンドウを開いてから追加する](#データをウィンドウを開いてから追加する)<br>
 
 # TerrainViewer
 国土地理院のデータから地形図を生成し、画像を保存できるデスクトップアプリです。
@@ -19,7 +20,7 @@
 ![setup2](https://github.com/pto8913/TerrainViewer/blob/images/Zip4.png)<br>
 これで、準備が完了しました。<br>
 
-[目次に戻る](#目次)
+[目次に戻る](#目次)<br>
 
 # 使い方
 1. コマンドラインを開く。<br>
@@ -48,16 +49,6 @@
 4. エンターキーを押して下さい。<br>
 5. `TerrainViewer`というウィンドウが開かれます。<br>
 ![Howtouse5](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse5.png)<br>
-<details>
-  <summary>ウィンドウを開いた状態で、データを追加したい場合。</summary>
-  
-  5.5　国土地理院からダウンロードしてきたデータを、ウィンドウを開いた状態で行いたい場合、<br>
-       ダウンロードしてきたzip形式のフォルダを展開します。 <br>
-       展開されたフォルダをそのままウィンドウに、ドラッグアンドドロップしてください。<br>  
-       ![Houtouse5.5](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse5.5.png)<br>
-</details>
-
-
 6. 地形図を生成したいアイテムがある、フォルダの名前をダブルクリックします。<br>
 7. 地形図を生成したいアイテムをクリックして選択します。<br>
 ![Howtouse7](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse7.png)<br>
@@ -69,4 +60,13 @@
 11. それらをダブルクリックすると、地形図が表示されます。<br>
 ![Howtouse10](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse11.png)<br>
 12. 面白い地形図を探しましょう!<br>
-[目次に戻る](#目次)
+<br>
+[目次に戻る](#目次)<br>
+
+# データをウィンドウを開いてから追加する
+国土地理院からダウンロードしてきたデータを、ウィンドウを開いた状態で行いたい場合、<br>
+ダウンロードしてきたzip形式のフォルダを展開します。 <br>
+展開されたフォルダをそのままウィンドウに、ドラッグアンドドロップしてください。<br>  
+![Houtouse5.5](https://github.com/pto8913/TerrainViewer/blob/images/Howtouse5.5.png)<br>
+
+[目次に戻る](#目次)<br>
